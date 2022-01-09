@@ -277,10 +277,9 @@ body {
   padding: 10px 62px 10px 29px;
   margin: 0;
 }
-
 /* Hero section End */
 
-/* Features section */
+/* Features section Start*/
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -321,23 +320,24 @@ body {
   line-height: 1.7;
   margin: 0;
 }
+/* Features section End */
 
-/* What are we doing section */
-.do-list {
+/* What are we doing section Start */
+.do {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.do-item {
+.do__item {
   position: relative;
 }
 
-.do-img {
+.do__img {
   display: block;
 }
 
-.do-text {
+.do__text {
   position: absolute;
   width: 100%;
   left: 0;
@@ -352,6 +352,7 @@ body {
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
 }
+/* What are we doing section End */
 
 /* Team section */
 .team {
