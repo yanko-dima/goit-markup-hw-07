@@ -588,11 +588,9 @@ body {
   height: 24px;
   right: 28px;
 }
-
 /* Footer section End */
 
-/* Modal window section Start */
-
+/* Modal Window section Start */
 /* Backdrop */
 .backdrop {
   position: fixed;
@@ -623,7 +621,6 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 528px;
   height: 581px;
   padding: 40px;
@@ -631,7 +628,6 @@ body {
   background-color: #fff;
   transform: translate(-50%, -50%) scale(1);
   transition: scale var(--time) var(--timeFunction);
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -684,8 +680,6 @@ body {
   flex-direction: column;
   margin-bottom: 10px;
   color: var(--mainBlack);
-
-  /* outline: 1px solid skyblue; */
 }
 
 .form__input {
@@ -709,9 +703,9 @@ body {
   fill: var(--mainBlue);
 }
 
-.form__field:focus-within > .form__input {
+/* .form__field:focus-within > .form__input {
   border: 1px solid red;
-}
+} */
 
 .form__ico {
   position: absolute;
@@ -786,9 +780,6 @@ body {
   background-origin: border-box;
 }
 
-/* .form__checkbox-label input[type="checkbox"] {
-} */
-
 .form__conditions-link {
   color: var(--mainBlue);
   margin-left: 5px;
@@ -799,8 +790,7 @@ body {
 }
 /* Modal window section End */
 
-/* Main section portfolio */
-
+/* PORTFOLIO Main section Start*/
 /* Portfolio tab Buttons */
 .portfolio-tab {
   display: flex;
@@ -925,3 +915,4 @@ body {
   margin: 0;
   padding: 0 0 0 24px;
 }
+/* PORTFOLIO Main section End */
