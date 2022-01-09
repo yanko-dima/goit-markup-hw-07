@@ -19,7 +19,7 @@
     <!-- Header -->
     <header class="header">
 
-        <div class="container main-nav">
+        <div class="section__container header__container">
 
             <!-- Nav -->
             <nav class="nav">
@@ -75,61 +75,64 @@
     </header>
     
     <main>
+
         <!-- Herro -->
         <section class="hero">
 
-            <div class="container">
-                <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button data-modal-open class="btn btn-primary" type="button">Заказать услугу</button>
+            <div class="section__container">
+                <h1 class="hero__title">Эффективные решения <br> для вашего бизнеса</h1>
+                <button data-modal-open class="btn btn--hover" type="button">Заказать услугу</button>
             </div>     
                     
         </section>
+
         <!-- Features section -->
         <section class="section">
 
-            <div class="container">
+            <div class="section__container">
                 
-                <h2 class="section-title" hidden>Особенности</h2>
-                <ul class="features-list list">
+                <h2 class="section__title" hidden>Особенности</h2>
 
-                    <li class="features-list-item">
-                        <div class="feauters-icon-block">
-                            <svg class="feauters-icon">
+                <ul class="features list">
+
+                    <li class="features__item">
+                        <div class="feauters__icon-block">
+                            <svg class="feauters__icon">
                                 <use href="./images/symbol-defs.svg#antena"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">Внимание к деталям</h3>
-                        <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="features__title">Внимание к деталям</h3>
+                        <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
 
-                    <li class="features-list-item">
-                        <div class="feauters-icon-block">
-                            <svg class="feauters-icon">
+                    <li class="features__item">
+                        <div class="feauters__icon-block">
+                            <svg class="feauters__icon">
                                 <use href="./images/symbol-defs.svg#watch"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">Пунктуальность</h3>
-                        <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="features__title">Пунктуальность</h3>
+                        <p class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
 
-                    <li class="features-list-item">
-                        <div class="feauters-icon-block">
-                            <svg class="feauters-icon">
+                    <li class="features__item">
+                        <div class="feauters__icon-block">
+                            <svg class="feauters__icon">
                                 <use href="./images/symbol-defs.svg#notebook"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">Планирование</h3>
-                        <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="features__title">Планирование</h3>
+                        <p class="features__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
 
-                    <li class="features-list-item">
-                        <div class="feauters-icon-block">
-                            <svg class="feauters-icon">
+                    <li class="features__item">
+                        <div class="feauters__icon-block">
+                            <svg class="feauters__icon">
                                 <use href="./images/symbol-defs.svg#astronaut"></use>
                             </svg>
                         </div>
-                        <h3 class="features-title">Современные технологии</h3>
-                        <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="features__title">Современные технологии</h3>
+                        <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
 
                 </ul>
@@ -396,7 +399,7 @@
         </section>
 
     </main>
-    
+
     <!-- Footer section -->
     <footer class="footer">
 
@@ -467,7 +470,7 @@
                 <form class="footer-form">
 
                     <input class="footer-form__input" type="email" placeholder="E-mail">
-                    <button class="footer-form__button" type="submit">Подписатся
+                    <button class="btn footer-form__btn" type="submit">Подписатся
                         <svg class="footer-form__ico">
                             <use href="./images/symbol-defs.svg#iconsend"></use>
                         </svg>
