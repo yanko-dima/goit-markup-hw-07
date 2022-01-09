@@ -406,7 +406,7 @@
     <!-- Footer section -->
     <footer class="footer">
 
-        <div class="container footer__container">
+        <div class="section__container footer__container">
             
             <!-- Adress block in footer -->
             <div class="footer__item">
@@ -489,74 +489,73 @@
 
     <!-- Modal Window section -->
     <div data-modal class="backdrop is-hidden">
-        <div class="modal">
-            <div data-modal-close class="close">
-                <svg class="close-ico">
+        <div class="backdrop__modal">
+            <div data-modal-close class="backdrop__close">
+                <svg class="backdrop__close-ico">
                     <use href="./images/symbol-defs.svg#close"></use>
                 </svg>    
             </div>
 
             <!-- Form -->
-            <form class="modal-form">
+            <form class="form">
             
-                <!-- Form label -->
-                <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <p class="form__title">Оставьте свои данные, мы вам перезвоним</p>
 
             <div role="group">
 
                 <!-- First Name -->
-                <div class="form-field">
-                    <label class="form-label" for="name">Имя</label>
-                    <input class="form-input" type="text" name="name" id="name">
+                <div class="form__field">
+                    <label class="form__label" for="name">Имя</label>
+                    <input class="form__input" type="text" name="name" id="name">
 
-                    <svg class="form-ico">
+                    <svg class="form__ico">
                         <use href="./images/symbol-defs.svg#fname"></use>
                     </svg>
 
                 </div>                
                 
                 <!-- Phone number -->
-                <div class="form-field">
-                    <label class="form-label" for="phone">Телефон</label>
-                    <input class="form-input" type="tel" name="phone" id="phone">
+                <div class="form__field">
+                    <label class="form__label" for="phone">Телефон</label>
+                    <input class="form__input" type="tel" name="phone" id="phone">
 
-                    <svg class="form-ico">
+                    <svg class="form__ico">
                         <use href="./images/symbol-defs.svg#fphone"></use>
                     </svg>
 
                 </div>                
 
                 <!-- Email -->
-                <div class="form-field">
-                    <label class="form-label" for="email">Почта</label>
-                    <input class="form-input" type="email" name="email" id="email">
+                <div class="form__field">
+                    <label class="form__label" for="email">Почта</label>
+                    <input class="form__input" type="email" name="email" id="email">
 
-                    <svg class="form-ico">
+                    <svg class="form__ico">
                         <use href="./images/symbol-defs.svg#fmail"></use>
                     </svg>
 
                 </div>                
 
                 <!-- Comment text area -->
-                <div class="form-field textarea-block">
-                    <label class="form-label" for="comment">Комментарий</label>
-                    <textarea class="comment" rows="5" name="comment" id="comment" placeholder="Введите текст"></textarea>
+                <div class="form__field form__field--textarea-block">
+                    <label class="form__label" for="comment">Комментарий</label>
+                    <textarea class="form__comment" rows="5" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>                
 
                 <!-- Chekbox -->
-                <label class="checkbox-label">
-                    <input class="checkbox" type="checkbox" value="conditions" name="conditions">  
-                    <svg class="checkbox-icon">
+                <label class="form__checkbox-label">
+                    <input class="form__checkbox" type="checkbox" value="conditions" name="conditions">  
+                    <svg class="form__checkbox-icon">
                         <use href="./images/symbol-defs.svg#iconcheck"></use>
                     </svg>
-                    Соглашаюсь с рассылкой и принимаю <a class="conditions-link" href="">Условия договора</a>
+                    Соглашаюсь с рассылкой и принимаю <a class="form__conditions-link" href="">Условия договора</a>
                 </label> 
 
             </div>
             
                 <!-- Submit button -->
-                <div class="button-block">
-                    <button class="form-btn" type="submit">Отправить</button>
+                <div class="form__button-block">
+                    <button class="btn btn--hover form__btn" type="submit">Отправить</button>
                 </div>
 
             </form>
