@@ -82,7 +82,7 @@ body {
 
 /* BEM Sets */
 
-/* Header */
+/* Header section */
 .header {
   border-bottom: 1px solid var(--secondBorder);
 }
@@ -139,10 +139,6 @@ body {
   transition-timing-function: var(--timeFunction);
 }
 
-.auth .link:hover {
-  color: var(--mainBlue);
-}
-
 /* Nav */
 .nav {
   display: flex;
@@ -153,10 +149,6 @@ body {
   transition-property: color;
   transition-duration: var(--time);
   transition-timing-function: var(--timeFunction);
-}
-
-.nav .link:hover {
-  color: var(--mainBlue);
 }
 
 .nav__list {
@@ -214,20 +206,12 @@ body {
 }
 
 /* Link hover decoration */
-.footer-info .link {
-  transition-property: color;
-  transition-duration: var(--time);
-  transition-timing-function: var(--timeFunction);
-}
-
-.header-nav .link:hover,
-.header-nav .link:focus,
-.header-auth .link:hover,
-.header-auth .link:focus,
-.footer-info .link:hover,
-.footer-info .link:focus,
-.footer-adress-link:hover,
-.footer-adress-link:focus {
+.nav .link:hover,
+.nav .link:focus,
+.auth .link:hover,
+.auth .link:focus,
+.adress__link:hover,
+.adress__link:focus {
   color: var(--mainBlue);
 }
 
@@ -510,10 +494,6 @@ body {
   transition-timing-function: var(--timeFunction);
 }
 
-.adress__link:hover {
-  color: var(--mainBlue);
-}
-
 /* SMM block i footer */
 .smm {
   display: flex;
@@ -538,7 +518,8 @@ body {
   transition-timing-function: var(--timeFunction);
 }
 
-.smm__link:hover {
+.smm__link:hover,
+.smm__link:focus {
   background-color: var(--mainBlue);
 }
 
