@@ -22,45 +22,48 @@
     <header class="header">
     
         <div class="container main-nav">
+    
+            <!-- Nav -->
             <nav class="nav">
-                <a href="./index.html" class="header-logo link">
-                    Web<span class="header-logo-decoration">Studio</span>
+                <a href="./index.html" class="logo">Web<span class="logo--nav">Studio</span>
                 </a>
-                <ul class="header-nav list">
-            
-                    <li class="header-nav-item">
-                        <a href="./index.html" class=" link">Студия</a>
+                <ul class="nav__list list">
+    
+                    <li class="nav__item">
+                        <a href="./index.html" class="link">Студия</a>
                     </li>
-            
-                    <li class="header-nav-item">
-            
-                        <a href="./portfolio.html" class="link current">Портфолио</a>
+    
+                    <li class="nav__item">
+    
+                        <a href="./portfolio.html" class="link nav__link--current">Портфолио</a>
                     </li>
-            
-                    <li class="header-nav-item">
+    
+                    <li class="nav__item">
                         <a href="#" class="link">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <ul class="header-auth list">
     
-                <li class="header-auth-item">
-                    <a href="mailto:info@devstudio.com" class="auth-link link">
+            <!-- Auth -->
+            <ul class="auth list">
     
-                        <svg class="auth-ico mail">
-                            <use href="./images/symbol-defs.svg#icon-mail"></use>
+                <li class="auth__item">
+                    <a href="mailto:info@devstudio.com" class="auth__link link">
+    
+                        <svg class="auth__ico auth__ico--mail">
+                            <use href="./images/symbol-defs.svg#mail"></use>
                         </svg>
     
                         info@devstudio.com
                     </a>
                 </li>
     
-                <li class="header-auth-item">
+                <li class="auth__item">
     
-                    <a href="tel:+380961111111" class="auth-link link">
+                    <a href="tel:+380961111111" class="auth__link link">
     
-                        <svg class="auth-ico phone">
-                            <use href="./images/symbol-defs.svg#icon-phone"></use>
+                        <svg class="auth__ico auth__ico--phone">
+                            <use href="./images/symbol-defs.svg#phone"></use>
                         </svg>
     
                         +38 096 111 11 11
@@ -292,56 +295,62 @@
             
         </section>
     </main>
+
     <!-- Footer section -->
     <footer class="footer">
     
-        <div class="container footer-row">
-            <div class="footer-contact">
-                <a href="./index.html" class="footer-logo">Web<span class="footer-logo-decoration">Studio</span>
+        <div class="container footer__container">
+    
+            <!-- Adress block in footer -->
+            <div class="footer__item">
+    
+                <a href="./index.html" class="logo footer__logo">Web<span class="logo--footer">Studio</span>
                 </a>
-                <address class="adress-block">
-                    <ul class="footer-info list">
-                        <li class="footer-info-item"><a href="https://goo.gl/maps/WekGNERd3yGUQuFB7"
-                                class="footer-adress-link" target="_blank">г. Киев, пр-т
+    
+                <address class="adress">
+                    <ul class="adrss__list list">
+                        <li class="adress__item"><a href="https://goo.gl/maps/WekGNERd3yGUQuFB7" class="adress__link"
+                                target="_blank">г. Киев, пр-т
                                 Леси Украинки, 26</a></li>
-                        <li class="footer-info-item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+                        <li class="adress__item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
                         </li>
-                        <li class="footer-info-item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+                        <li class="adress__item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
     
-            <div>
-                <h3 class="footer-smm-title">присоединяйтесь</h3>
-                <ul class="footer-smmlink-list list">
+            <!-- SMM block i footer -->
+            <div class="footer__item">
+                <h3 class="footer__title">присоединяйтесь</h3>
+                <ul class="smm list">
     
-                    <li class="smmlink-item">
-                        <a href="" class="footer-smmlink">
+                    <li class="smm__item">
+                        <a href="" class="smm__link">
     
-                            <svg class="smm-ico">
+                            <svg class="smm__ico">
                                 <use href="./images/symbol-defs.svg#instagram"></use>
                             </svg>
     
                         </a>
     
                     </li>
-                    <li class="smmlink-item">
-                        <a href="" class="footer-smmlink">
-                            <svg class="smm-ico">
+                    <li class="smm__item">
+                        <a href="" class="smm__link">
+                            <svg class="smm__ico">
                                 <use href="./images/symbol-defs.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="smmlink-item">
-                        <a href="" class="footer-smmlink">
-                            <svg class="smm-ico">
+                    <li class="smm__item">
+                        <a href="" class="smm__link">
+                            <svg class="smm__ico">
                                 <use href="./images/symbol-defs.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="smmlink-item">
-                        <a href="" class="footer-smmlink">
-                            <svg class="smm-ico">
+                    <li class="smm__item">
+                        <a href="" class="smm__link">
+                            <svg class="smm__ico">
                                 <use href="./images/symbol-defs.svg#linkedin"></use>
                             </svg>
                         </a>
@@ -349,15 +358,16 @@
                 </ul>
             </div>
     
-            <!-- Footer form block -->
-            <div class="footer-form-block">
-                <h3 class="footer-smm-title">Подпишитесь на рассылку</h3>
+            <!-- Form block in footer -->
+            <div class="footer__item">
+    
+                <h3 class="footer__title">Подпишитесь на рассылку</h3>
     
                 <form class="footer-form">
     
-                    <input type="email" placeholder="E-mail">
-                    <button type="submit">Подписатся
-                        <svg class="send-ico">
+                    <input class="footer-form__input" type="email" placeholder="E-mail">
+                    <button class="footer-form__button" type="submit">Подписатся
+                        <svg class="footer-form__ico">
                             <use href="./images/symbol-defs.svg#iconsend"></use>
                         </svg>
                     </button>
