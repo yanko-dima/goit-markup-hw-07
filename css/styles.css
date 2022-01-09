@@ -427,17 +427,17 @@ body {
 }
 /* Team section End */
 
-/* Clients section */
-.clients-list {
+/* Clients section Start*/
+.clients {
   display: flex;
   flex-wrap: wrap;
 }
 
-.clients-list-item:not(:last-child) {
+.clients__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -452,16 +452,17 @@ body {
   transition-timing-function: var(--timeFunction);
 }
 
-.clients-link:hover {
+.clients__link:hover {
   color: var(--mainBlue);
   border: 1px solid var(--mainBlue);
 }
 
-.cients-logo {
+.cients__logo {
   width: 106px;
   height: 60px;
   fill: currentColor;
 }
+/* Clients section End */
 
 /* Footer section */
 .footer {
