@@ -2,11 +2,16 @@ $color: red;
 $mainColor: #ddd;
 $width: 100px;
 
+body {
+  color: $color;
+}
+
+// Вложенности
 .button {
   background-color: $color;
 
-  $:hovr,
-  $:focus {
+  &:hover,
+  &:focus {
     background-color: $mainColor;
   }
 }

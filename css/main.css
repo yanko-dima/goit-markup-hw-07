@@ -1,10 +1,12 @@
 body {
-  background-color: green;
-  color: #ddd;
-  width: 100px;
+  color: red;
 }
 
-p {
-  color: red;
+.button {
+  background-color: red;
+}
+
+.button:hover, .button:focus {
+  background-color: #ddd;
 }
 /*# sourceMappingURL=main.css.map */
