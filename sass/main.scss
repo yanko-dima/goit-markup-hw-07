@@ -1,0 +1,12 @@
+$color: red;
+$mainColor: #ddd;
+$width: 100px;
+
+.button {
+  background-color: $color;
+
+  $:hovr,
+  $:focus {
+    background-color: $mainColor;
+  }
+}
