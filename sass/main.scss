@@ -1,17 +1,36 @@
-$color: red;
-$mainColor: #ddd;
-$width: 100px;
+// main.css
+@import "./utils/variaples";
+@import "./utils/placeholders";
+@import "./components/page-header";
+@import "./components/logo";
+@import "./components/page-nav";
+@import "./components/section";
 
-body {
+// Placeholders
+.link {
+  @extend %link;
   color: $color;
 }
 
+.logo {
+  @extend %link;
+  background-color: $mainColor;
+}
+
 // Вложенности
+.box {
+  color: $mainColor;
+}
+
 .button {
   background-color: $color;
 
   &:hover,
   &:focus {
     background-color: $mainColor;
+  }
+
+  .box:hover & {
+    background-color: tomato;
   }
 }

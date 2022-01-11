@@ -1,2 +1,2 @@
-body{color:red}.button{background-color:red}.button:hover,.button:focus{background-color:#ddd}
+.link,.logo{text-decoration:none}.header{border-bottom:1px solid var(--secondBorder)}.link{color:red}.logo{background-color:#ddd}.box{color:#ddd}.button{background-color:red}.button:hover,.button:focus{background-color:#ddd}.box:hover .button{background-color:tomato}
 /*# sourceMappingURL=main.min.css.map */

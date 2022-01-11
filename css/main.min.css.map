@@ -1,8 +1,14 @@
 {
     "version": 3,
-    "mappings": "AAIA,AAAA,IAAI,AAAC,CACH,KAAK,CALC,GAAG,CAMV,AAGD,AAAA,OAAO,AAAC,CACN,gBAAgB,CAVV,GAAG,CAgBV,AAPD,AAGE,OAHK,AAGJ,MAAM,CAHT,OAAO,AAIJ,MAAM,AAAC,CACN,gBAAgB,CAbR,IAAI,CAcb",
+    "mappings": "AASA,AETA,KFSK,CAKL,KAAK,AEdC,CACJ,eAAe,CAAE,IAAI,CACtB,ACFD,AAAA,OAAO,AAAC,CACN,aAAa,CAAE,GAAG,CAAC,KAAK,CAAC,mBAAmB,CAC7C,AHOD,AAAA,KAAK,AAAC,CAEJ,KAAK,CCTC,GAAG,CDUV,AAED,AAAA,KAAK,AAAC,CAEJ,gBAAgB,CCbN,IAAI,CDcf,AAGD,AAAA,IAAI,AAAC,CACH,KAAK,CClBK,IAAI,CDmBf,AAED,AAAA,OAAO,AAAC,CACN,gBAAgB,CCvBV,GAAG,CDiCV,AAXD,AAGE,OAHK,AAGJ,MAAM,CAHT,OAAO,AAIJ,MAAM,AAAC,CACN,gBAAgB,CC1BR,IAAI,CD2Bb,AAED,AAAA,IAAI,AAAA,MAAM,CARZ,OAAO,AAQQ,CACX,gBAAgB,CAAE,MAAM,CACzB",
     "sources": [
-        "../sass/main.scss"
+        "../sass/main.scss",
+        "../sass/utils/_variaples.scss",
+        "../sass/utils/_placeholders.scss",
+        "../sass/components/_page-header.scss",
+        "../sass/components/_logo.scss",
+        "../sass/components/_page-nav.scss",
+        "../sass/components/_section.scss"
     ],
     "names": [],
     "file": "main.min.css"
