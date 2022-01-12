@@ -30,6 +30,26 @@ div {
           align-items: center;
 }
 
+.icon-facebook {
+  background-image: url(../images/facebook.svg);
+}
+
+.icon-github {
+  background-image: url(../images/github.svg);
+}
+
+.icon-linkedin {
+  background-image: url(../images/linkedin.svg);
+}
+
+.icon-twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+.icon-instagram {
+  background-image: url(../images/instagram.svg);
+}
+
 .link {
   color: red;
 }
