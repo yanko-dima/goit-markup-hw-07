@@ -1,0 +1,6 @@
+// Mixin
+@mixin centredFlex($type: flex) {
+  display: $type;
+  justify-content: center;
+  align-items: center;
+}
