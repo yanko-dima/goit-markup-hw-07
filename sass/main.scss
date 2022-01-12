@@ -1,5 +1,5 @@
 // main.css
-@import "./utils/variaples";
+@import "./utils/variables";
 @import "./utils/placeholders";
 @import "./utils/mixins";
 @import "./components/page-header";
@@ -7,42 +7,42 @@
 @import "./components/page-nav";
 @import "./components/section";
 
-p {
-  @include centredFlex(inline-flex);
-}
+// p {
+//   @include centredFlex(inline-flex);
+// }
 
-div {
-  @include centredFlex();
-}
+// div {
+//   @include centredFlex();
+// }
 
-// Mixin + Loop
-@include generateIcons($icons);
+// // Mixin + Loop
+// @include generateIcons($icons);
 
-// Placeholders
-.link {
-  @extend %link;
-  color: $color;
-}
+// // Placeholders
+// .link {
+//   @extend %link;
+//   color: $color;
+// }
 
-.logo {
-  @extend %link;
-  background-color: $mainColor;
-}
+// .logo {
+//   @extend %link;
+//   background-color: $mainColor;
+// }
 
-// Вложенности
-.box {
-  color: $mainColor;
-}
+// // Вложенности
+// .box {
+//   color: $mainColor;
+// }
 
-.button {
-  background-color: $color;
+// .button {
+//   background-color: $color;
 
-  &:hover,
-  &:focus {
-    background-color: $mainColor;
-  }
+//   &:hover,
+//   &:focus {
+//     background-color: $mainColor;
+//   }
 
-  .box:hover & {
-    background-color: tomato;
-  }
-}
+//   .box:hover & {
+//     background-color: tomato;
+//   }
+// }
