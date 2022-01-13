@@ -1,0 +1,33 @@
+// Clients section
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__link {
+    @include centredFlex(center);
+
+    width: 170px;
+    height: 92px;
+    color: $primaryIconColor;
+    border: 1px solid $primaryIconColor;
+    border-radius: 4px;
+
+    @extend %transition;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $acentColor;
+    border-color: $acentColor;
+  }
+
+  &__logo {
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+  }
+}
