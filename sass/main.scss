@@ -12,6 +12,8 @@
 // Sections
 @import "./components/hero-section";
 @import "./components/feauture-section";
+@import "./components/do-section";
+@import "./components/team-seection";
 
 // p {
 //   @include centredFlex(inline-flex);
@@ -24,10 +26,10 @@
 // // Mixin + Loop
 // @include generateIcons($icons);
 
-// // Placeholders
+// Placeholders
 // .link {
 //   @extend %link;
-//   color: $color;
+//   color: #fff;
 // }
 
 // .logo {

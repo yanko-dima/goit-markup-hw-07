@@ -330,7 +330,7 @@ body {
 /* Features section End */
 
 /* What are we doing section Start */
-.do {
+/* .do {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -357,7 +357,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
-  background-color: rgba(47, 48, 58, 0.8);
+  background-color: rgba(47, 48, 58, 0.8); */
 }
 /* What are we doing section End */
 
@@ -366,7 +366,7 @@ body {
   background-color: var(--secondBg);
 }
 
-.team {
+/* .team {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -402,10 +402,10 @@ body {
   font-size: 16px;
   line-height: 1.2;
   margin: 0;
-}
+} */
 
 /* Team smm block */
-.team-smm {
+/* .team-smm {
   display: flex;
   margin: 0 32px 0;
 }
@@ -431,7 +431,7 @@ body {
 .team-smm__link:hover {
   background-color: var(--mainBlue);
   color: var(--mainWhite);
-}
+} */
 /* Team section End */
 
 /* Clients section Start*/

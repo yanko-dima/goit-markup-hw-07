@@ -1,4 +1,4 @@
-.auth .link, .btn {
+.auth .link, .btn, .team-smm__link {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
@@ -163,6 +163,7 @@
 
 .section {
   padding: 90px 0;
+  background: #ffffff;
 }
 
 .section__container {
@@ -182,6 +183,10 @@
 
 .section--no-padding {
   padding-top: 0;
+}
+
+.section--team {
+  background-color: #f5f4fa;
 }
 
 .btn {
@@ -275,5 +280,106 @@
 .features__text {
   line-height: 1.7;
   margin: 0;
+}
+
+.do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.do__item {
+  position: relative;
+}
+
+.do__img {
+  display: block;
+}
+
+.do__text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 27px 0;
+  margin: 0;
+  color: #ffffff;
+  line-height: 1.15;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.team__item {
+  text-align: center;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__img {
+  display: block;
+  margin: 0 auto 30px auto;
+}
+
+.team__content {
+  margin: 0 0 16px 0;
+}
+
+.team__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #212121;
+  margin: 0 0 10px 0;
+}
+
+.team__text {
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.team-smm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 32px 0;
+}
+
+.team-smm__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 0;
+  color: #afb1b8;
+  border-radius: 50%;
+}
+
+.team-smm__link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,7 @@
 // Section
 .section {
   padding: 90px 0;
+  background: $primryBackgroudColor;
 
   &__container {
     width: 1200px;
@@ -19,5 +20,9 @@
 
   &--no-padding {
     padding-top: 0;
+  }
+
+  &--team {
+    background-color: $secondaryBackgroundColor;
   }
 }
