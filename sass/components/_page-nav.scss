@@ -3,9 +3,11 @@
   @include centredFlex();
 
   & .link {
-    transition-property: color;
-    transition-duration: $time;
-    transition-timing-function: $timeFunction;
+    @extend %transition;
+
+    // transition-property: color;
+    // transition-duration: $time;
+    // transition-timing-function: $timeFunction;
   }
 
   & .link:hover,

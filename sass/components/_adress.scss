@@ -1,0 +1,28 @@
+// Adress
+.adress {
+  font-style: normal;
+
+  &__item:not(:last-child) {
+    margin: 0 0 9px 0;
+  }
+
+  &__list .link {
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    opacity: 0.6;
+    // color: rgb(255, 255, 255, 0.6);
+  }
+
+  &__link {
+    text-decoration: none;
+    line-height: 1.7;
+    color: $inversTextColor;
+
+    @extend %transition;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: $acentColor;
+  }
+}

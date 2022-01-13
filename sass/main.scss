@@ -6,8 +6,12 @@
 @import "./components/logo";
 @import "./components/page-nav";
 @import "./components/auth";
+@import "./components/adress";
 @import "./components/section";
+
+// Utils
 @import "./components/button";
+@import "./utils/utils";
 
 // Sections
 @import "./components/hero-section";
@@ -15,6 +19,7 @@
 @import "./components/do-section";
 @import "./components/team-seection";
 @import "./components/clients-section";
+@import "./components/footer";
 
 // p {
 //   @include centredFlex(inline-flex);

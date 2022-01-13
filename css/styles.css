@@ -62,10 +62,10 @@ body {
 .nav .link:focus, */
 /* .auth .link:hover,
 .auth .link:focus, */
-.adress__link:hover,
+/* .adress__link:hover,
 .adress__link:focus {
   color: var(--mainBlue);
-}
+} */
 
 /* Section component */
 /* .section {
@@ -472,7 +472,7 @@ body {
 /* Clients section End */
 
 /* Footer section Start*/
-.footer {
+/* .footer {
   background-color: var(--darkBg);
   padding: 60px 0;
 }
@@ -501,9 +501,9 @@ body {
   text-transform: uppercase;
   margin: 0 0 20px 0;
 }
-
+ */
 /* Adress */
-.adress {
+/* .adress {
   font-style: normal;
 }
 
@@ -525,7 +525,7 @@ body {
   transition-duration: var(--time);
   transition-timing-function: var(--timeFunction);
 }
-
+ */
 /* SMM block i footer */
 .smm {
   display: flex;
