@@ -1,0 +1,23 @@
+// Section
+.section {
+  padding: 90px 0;
+
+  &__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: $titleColor;
+    margin: 0 0 50px 0;
+  }
+
+  &--no-padding {
+    padding-top: 0;
+  }
+}

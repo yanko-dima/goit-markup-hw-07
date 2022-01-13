@@ -68,7 +68,7 @@ body {
 }
 
 /* Section component */
-.section {
+/* .section {
   padding: 94px 0;
 }
 
@@ -89,7 +89,7 @@ body {
 
 .section--no-padding {
   padding-top: 0;
-}
+} */
 
 /* BEM Sets */
 
