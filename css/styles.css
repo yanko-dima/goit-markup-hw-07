@@ -94,7 +94,7 @@ body {
 /* BEM Sets */
 
 /* Header section Start*/
-.header {
+/* .header {
   border-bottom: 1px solid var(--secondBorder);
 }
 
@@ -102,10 +102,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 /* Auth */
-.auth {
+/* .auth {
   display: flex;
   justify-content: end;
 }
@@ -127,9 +127,9 @@ body {
   display: flex;
   align-items: center;
   color: var(--mainGray);
-}
+} */
 
-.auth__ico {
+/* .auth__ico {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -148,10 +148,10 @@ body {
   transition-property: color;
   transition-duration: var(--time);
   transition-timing-function: var(--timeFunction);
-}
+} */
 
 /* Nav */
-.nav {
+/* .nav {
   display: flex;
   align-items: center;
 }
@@ -180,9 +180,9 @@ body {
 
 .nav__item:not(:last-child) {
   margin-right: 50px;
-}
+} */
 
-.nav__item .nav__link--current {
+/* .nav__item .nav__link--current {
   color: var(--mainBlue);
 }
 
@@ -195,10 +195,10 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--mainBlue);
-}
+} */
 
 /* Logo */
-.logo {
+/* .logo {
   display: inline-block;
   text-decoration: none;
   font-family: var(--secondFont);
@@ -214,7 +214,7 @@ body {
 
 .logo--footer {
   color: var(--mainWhite);
-}
+} */
 
 /* Header sction End */
 

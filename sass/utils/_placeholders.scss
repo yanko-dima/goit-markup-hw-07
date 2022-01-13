@@ -1,9 +1,25 @@
-%link {
-  text-decoration: none;
+%nav {
+  display: flex;
+  align-items: center;
 }
 
+// Link template
+%link {
+  text-decoration: none;
+  font-style: normal;
+  color: $primatyTextColor;
+}
+
+// List template
 %list {
-  padding: 0;
-  margin: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+// Transition
+%transition {
+  transition-property: color;
+  transition-duration: $time;
+  transition-timing-function: $timeFunction;
 }

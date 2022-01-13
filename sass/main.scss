@@ -1,11 +1,11 @@
-// main.css
+// main.scss
 @import "./utils/variables";
 @import "./utils/placeholders";
 @import "./utils/mixins";
 @import "./components/page-header";
 @import "./components/logo";
 @import "./components/page-nav";
-@import "./components/section";
+@import "./components/auth"; // @import "./components/section";
 
 // p {
 //   @include centredFlex(inline-flex);

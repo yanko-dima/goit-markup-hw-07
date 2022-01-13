@@ -1,16 +1,16 @@
 // Mixin
-@mixin centredFlex($type: flex) {
-  display: $type;
-  justify-content: center;
-  align-items: center;
+@mixin centredFlex($justify: start, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
 }
 
 // Mixin + Loop
 
-@mixin generateIcons($iconList) {
-  @each $iconName in $iconList {
-    .icon-#{$iconName} {
-      background-image: url(../images/#{$iconName}.svg);
-    }
-  }
-}
+// @mixin generateIcons($iconList) {
+//   @each $iconName in $iconList {
+//     .icon-#{$iconName} {
+//       background-image: url(../images/#{$iconName}.svg);
+//     }
+//   }
+// }

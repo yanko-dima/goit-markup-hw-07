@@ -1,0 +1,42 @@
+// Auth
+.auth {
+  @include centredFlex(end);
+
+  &.link {
+    display: block;
+    padding: 32px 0;
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: $primatyTextColor;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__link {
+    @include centredFlex();
+    color: $primatyTextColor;
+  }
+
+  &__ico {
+    margin-right: 10px;
+    fill: currentColor;
+  }
+
+  &__ico--mail {
+    width: 16px;
+    height: 12px;
+  }
+
+  &__ico--phone {
+    width: 10px;
+    height: 16px;
+  }
+
+  & .link {
+    @extend %transition;
+  }
+}

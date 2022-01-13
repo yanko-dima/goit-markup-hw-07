@@ -1,0 +1,45 @@
+// Page nav
+.nav {
+  @include centredFlex();
+
+  & .link {
+    transition-property: color;
+    transition-duration: $time;
+    transition-timing-function: $timeFunction;
+  }
+
+  &__list {
+    display: flex;
+    margin-left: 93px;
+  }
+
+  &__list .link {
+    position: relative;
+    display: block;
+    padding: 32px 0;
+
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: $titleColor;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__link &__link--current {
+    color: $acentColor;
+  }
+
+  &__link--current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: $acentColor;
+  }
+}
