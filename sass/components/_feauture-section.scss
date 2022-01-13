@@ -1,0 +1,39 @@
+// Features section
+.features {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    width: 270px;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &__icon-block {
+    @include centredFlex(center);
+    height: 120px;
+    background-color: $secondaryBackgroundColor;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
+
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__title {
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: var(--mainBlack);
+    margin: 0 0 10px 0;
+  }
+
+  &__text {
+    line-height: 1.7;
+    margin: 0;
+  }
+}

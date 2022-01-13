@@ -7,6 +7,11 @@
 @import "./components/page-nav";
 @import "./components/auth";
 @import "./components/section";
+@import "./components/button";
+
+// Sections
+@import "./components/hero-section";
+@import "./components/feauture-section";
 
 // p {
 //   @include centredFlex(inline-flex);

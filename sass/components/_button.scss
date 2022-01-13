@@ -1,0 +1,39 @@
+// Button
+.btn {
+  display: inline-block;
+  cursor: pointer;
+  min-width: 200px;
+  padding: 10px 32px;
+
+  font-family: $primaryFont;
+  color: $inversTextColor;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  background-color: $acentColor;
+  border: 0;
+  border-color: transparent;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  @extend %transition;
+
+  &:hover,
+  &:focus {
+    background-color: $btnHoverColor;
+  }
+
+  //   .footer-form__& {
+  //     @include centredFlex();
+  //     position: relative;
+
+  //     padding: 10px 62px 10px 29px;
+  //     margin: 0;
+  //   }
+
+  //   .form__& {
+  //     padding: 10px 56px;
+  //   }
+}
