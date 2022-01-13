@@ -58,10 +58,10 @@ body {
 }
 
 /* Link hover decoration */
-.nav .link:hover,
-.nav .link:focus,
-.auth .link:hover,
-.auth .link:focus,
+/* .nav .link:hover,
+.nav .link:focus, */
+/* .auth .link:hover,
+.auth .link:focus, */
 .adress__link:hover,
 .adress__link:focus {
   color: var(--mainBlue);
@@ -69,7 +69,7 @@ body {
 
 /* Section component */
 /* .section {
-  padding: 94px 0;
+  padding: 94px 0; 
 }
 
 .section__container {

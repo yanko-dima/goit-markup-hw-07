@@ -8,6 +8,11 @@
     transition-timing-function: $timeFunction;
   }
 
+  & .link:hover,
+  & .link:focus {
+    color: $acentColor;
+  }
+
   &__list {
     display: flex;
     margin-left: 93px;

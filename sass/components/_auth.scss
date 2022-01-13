@@ -39,4 +39,9 @@
   & .link {
     @extend %transition;
   }
+
+  & .link:hover,
+  & .link:focus {
+    color: $acentColor;
+  }
 }
