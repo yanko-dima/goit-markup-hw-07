@@ -99,7 +99,7 @@
   margin-right: 50px;
 }
 
-.nav__link .nav__link--current {
+.nav__item .nav__link--current {
   color: #2196f3;
 }
 
@@ -180,7 +180,7 @@
   margin: 0 0 9px 0;
 }
 
-.adress__list .link {
+.adress__item .link {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
