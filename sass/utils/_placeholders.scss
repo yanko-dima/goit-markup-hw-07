@@ -2,7 +2,7 @@
 %link {
   text-decoration: none;
   font-style: normal;
-  color: $primatyTextColor;
+  color: $primaryTextColor;
 }
 
 // List template
@@ -17,4 +17,13 @@
   transition-property: color;
   transition-duration: $time;
   transition-timing-function: $timeFunction;
+}
+
+// Smm link
+%smmLink {
+  display: block;
+  width: 44px;
+  height: 44px;
+  padding: 12px 0;
+  border-radius: 50%;
 }

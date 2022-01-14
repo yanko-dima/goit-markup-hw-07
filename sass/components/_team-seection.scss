@@ -35,26 +35,3 @@
     margin: 0;
   }
 }
-
-// Team smm block
-.team-smm {
-  display: flex;
-  margin: 0 32px 0;
-
-  &__link {
-    display: block;
-    width: 44px;
-    height: 44px;
-    padding: 12px 0;
-
-    color: $primaryIconColor;
-    border-radius: 50%;
-
-    @extend %transition;
-  }
-
-  &__link:hover {
-    background-color: $acentColor;
-    color: $inversTextColor;
-  }
-}

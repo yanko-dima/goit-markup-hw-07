@@ -1,7 +1,7 @@
 /* Second bgColor #F5F4FA  */
 
 :root {
-  /* Main colors */
+  Main colors
   --mainBlue: #2196f3;
   --secondaryBlue: #188ce8;
   --mainGray: #757575;
@@ -30,7 +30,7 @@
 }
 
 /* Site style set */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -43,9 +43,9 @@ body {
   color: var(--mainGray);
   background-color: var(--mainWhite);
   font-family: var(--mainFont), "Arial", sans-serif;
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -55,7 +55,7 @@ body {
   text-decoration: none;
   font-style: normal;
   color: var(--mainGray);
-}
+} */
 
 /* Link hover decoration */
 /* .nav .link:hover,
@@ -271,18 +271,14 @@ body {
   background-color: var(--secondaryBlue);
 } */
 
-.footer-form__btn {
+/* .footer__btn {
   display: flex;
   align-items: center;
   position: relative;
 
   padding: 10px 62px 10px 29px;
   margin: 0;
-}
-
-.form__btn {
-  padding: 10px 56px;
-}
+} */
 
 /* Hero section End */
 
@@ -527,7 +523,7 @@ body {
 }
  */
 /* SMM block i footer */
-.smm {
+/* .smm {
   display: flex;
 }
 
@@ -562,7 +558,7 @@ body {
 }
 
 /* Form block in footer */
-.footer-form {
+/* .footer-form {
   display: flex;
   align-items: center;
 }
@@ -587,12 +583,12 @@ body {
   width: 24px;
   height: 24px;
   right: 28px;
-}
+} */
 /* Footer section End */
 
 /* Modal Window section Start */
 /* Backdrop */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -605,9 +601,9 @@ body {
   transition-property: visibility, transtate, opacity;
   transition-duration: var(--time);
   transition-timing-function: var(--timeFunction);
-}
+} */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
@@ -615,9 +611,9 @@ body {
 
 .backdrop.is-hidden .backdrop__modal {
   transform: translate(-50%, -50%) scale(0.9);
-}
+}  */
 
-.backdrop__modal {
+/* .backdrop__modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -658,14 +654,14 @@ body {
 .backdrop__close-ico:hover,
 .backdrop__clothe-ico:focus {
   fill: var(--mainBlue);
-}
+}  */
 
-/* Form */
+/* Form
 .form {
   /* outline: 1px solid #757575; */
 }
 
-.form__title {
+/* .form__title {
   margin: 0 0 12px 0;
   text-align: center;
   font-size: 20px;
@@ -698,16 +694,17 @@ body {
 
   margin-bottom: 4px;
 }
+*/
 
-.form__field:focus-within > .form__ico {
+/* .form__field:focus-within > .form__ico {
   fill: var(--mainBlue);
-}
-
+} */
+ 
 /* .form__field:focus-within > .form__input {
   border: 1px solid red;
 } */
 
-.form__ico {
+/* .form__ico {
   position: absolute;
   width: 18px;
   height: 18px;
@@ -716,10 +713,14 @@ body {
 
   fill: currentColor;
   transition: fill var(--time) var(--timeFunction);
-}
+} */
+
+/* .form__btn {
+  padding: 10px 56px;
+} */
 
 /* Comment text area */
-.form__comment {
+/* .form__comment {
   resize: none;
   padding: 12px 16px;
 
@@ -735,19 +736,19 @@ body {
 
 .form__field--textarea-block {
   margin-bottom: 20px;
-}
+} */
 
 /* Chekbox */
-.form__checkbox-label {
+/* .form__checkbox-label {
   display: flex;
   align-items: center;
   justify-content: center;
 
   margin-bottom: 30px;
   line-height: 1.7;
-}
+} */
 
-.form__checkbox {
+/* .form__checkbox {
   position: absolute;
   height: 1px;
   width: 1px;
@@ -757,11 +758,11 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 
-  /* appearance: none;
-  position: absolute; */
-}
+  appearance: none;
+  position: absolute;
+} */
 
-.form__checkbox-icon {
+/* .form__checkbox-icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -772,9 +773,9 @@ body {
   border-radius: 2px;
 
   transition: transform var(--time) var(--timeFunction);
-}
+} */
 
-.form__checkbox:checked + .form__checkbox-icon {
+/* .form__checkbox:checked + .form__checkbox-icon {
   background-color: var(--mainBlue);
   border-color: var(--mainBlue);
   background-origin: border-box;
@@ -787,7 +788,7 @@ body {
 
 .form__button-block {
   text-align: center;
-}
+} */
 /* Modal window section End */
 
 /* PORTFOLIO Main section Start*/

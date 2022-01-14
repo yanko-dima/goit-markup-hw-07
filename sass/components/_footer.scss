@@ -12,7 +12,7 @@
     margin-right: 70px;
   }
 
-  &__item {
+  &__item:last-child {
     margin-left: 93px;
   }
 
@@ -26,5 +26,14 @@
     color: $inversTextColor;
     text-transform: uppercase;
     margin-bottom: 20px;
+  }
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    padding: 10px 62px 10px 29px;
+    margin: 0;
   }
 }

@@ -1,0 +1,188 @@
+// Backdrop
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+
+  background-color: rgba(0, 0, 0, 0.2);
+
+  @extend %transition;
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  &.is-hidden &__modal {
+    transform: translate(-50%, -50%) scale(0.9);
+  }
+
+  &__modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 528px;
+    height: 581px;
+    padding: 40px;
+
+    background-color: #fff;
+    transform: translate(-50%, -50%) scale(1);
+    transition: scale $time $timeFunction;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
+
+  &__close {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 6px;
+    top: 6px;
+
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+  }
+
+  &__close-ico {
+    width: 18px;
+    height: 18px;
+    fill: #000000;
+  }
+
+  &__close-ico:hover,
+  &__close-ico:focus {
+    fill: $acentColor;
+  }
+}
+
+// Form
+.form {
+  &__title {
+    margin: 0 0 12px 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: $titleColor;
+  }
+
+  &__field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: $titleColor;
+  }
+
+  &__input {
+    height: 40px;
+    margin: 0;
+    padding: 0 0 0 42px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+
+  &__label {
+    font-size: 12px;
+    line-height: 1.15;
+    color: $primaryTextColor;
+
+    margin-bottom: 4px;
+  }
+
+  &__field:focus-within > &__ico {
+    fill: $acentColor;
+  }
+
+  &__ico {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 12px;
+    bottom: 11px;
+
+    fill: currentColor;
+    transition: fill $time $timeFunction;
+  }
+
+  &__btn {
+    padding: 10px 56px;
+  }
+
+  &__comment {
+    resize: none;
+    padding: 12px 16px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+  }
+
+  &__comment::placeholder {
+    font-size: 12px;
+    line-height: 1.2;
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+  &__field--textarea-block {
+    margin-bottom: 20px;
+  }
+  &__checkbox-label {
+    @include centredFlex(center);
+
+    margin-bottom: 30px;
+    line-height: 1.7;
+  }
+
+  &__checkbox {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+    /* appearance: none;
+  position: absolute; */
+  }
+
+  &__checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+
+    background-color: $primryBackgroudColor;
+    border: 2px solid $titleColor;
+    border-radius: 2px;
+
+    transition: transform $time $timeFunction;
+  }
+
+  &__checkbox:checked + &__checkbox-icon {
+    background-color: $acentColor;
+    border-color: $acentColor;
+    background-origin: border-box;
+  }
+
+  &__conditions-link {
+    color: $acentColor;
+    margin-left: 5px;
+  }
+
+  &__button-block {
+    text-align: center;
+  }
+}

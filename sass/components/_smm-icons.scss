@@ -1,0 +1,51 @@
+// Smm footer icons
+.smm {
+  @include centredFlex();
+
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__link {
+    @extend %smmLink;
+
+    text-align: center;
+    color: $inversTextColor;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    @extend %transition;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    background-color: $acentColor;
+  }
+
+  &__ico {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+}
+
+// Smm team icons
+.team-smm {
+  @include centredFlex(center);
+
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &__link {
+    @extend %smmLink;
+
+    color: $primaryIconColor;
+
+    @extend %transition;
+  }
+
+  &__link:hover {
+    background-color: $acentColor;
+    color: $inversTextColor;
+  }
+}
