@@ -10,10 +10,12 @@
 @import "./components/section";
 @import "./components/smm-icons";
 @import "./components/modal-form";
+@import "./components/portfolio-tab";
 
 // Utils
-@import "./components/button";
 @import "./utils/utils";
+@import "./components/button";
+@import "./components/product";
 
 // Sections
 @import "./components/hero-section";
@@ -23,6 +25,7 @@
 @import "./components/clients-section";
 @import "./components/footer";
 @import "./components/footer-form";
+@import "./components/portfolio-section";
 
 // p {
 //   @include centredFlex(inline-flex);
